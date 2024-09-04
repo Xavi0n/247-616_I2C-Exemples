@@ -7,6 +7,7 @@
 
 #define I2C_FICHIER "/dev/i2c-2" // fichier Linux representant le BUS #2
 #define I2C_ADRESSE 0x68 // adresse du Device I2C MPU-9250 (motion tracking)
+#define I2C_ADRESSE_VL6180x 0x29
 
 int main()
 {
